@@ -84,3 +84,18 @@ h1 {
             
         } 
    }
+
+
+@media screen and (max-width : 925px) {
+    .container {
+        width: 510px;
+        height: 510px;
+        display: grid;
+        grid-template-columns: repeat(3,170px);
+    } 
+    .container div {
+   
+        height: 157px ;
+        
+    } 
+}
